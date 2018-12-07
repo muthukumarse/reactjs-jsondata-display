@@ -6,7 +6,7 @@
 
 as general 
 
-- 6+
+- ES6+
 - React Reouter
 - Redux State management
 - 100% Test Coverage
