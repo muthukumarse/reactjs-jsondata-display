@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getProducts Saga should call the error action if the response errors 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "https://raw.githubusercontent.com/BookingBoss/reactjs-test/master/productsData.json",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`getProducts Saga should call the error action if the response errors 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": Object {
+        "products": undefined,
+      },
+      "type": "boilerplate/Products/LOAD_PRODUCTS_SUCCESS",
+    },
+    "channel": null,
+  },
+}
+`;
